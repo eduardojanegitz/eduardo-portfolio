@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { AiFillEye, AiFillGithub } from "react-icons/ai";
 import { motion } from "framer-motion";
 
@@ -62,8 +62,12 @@ const works = [
 
 const Work = () => {
   const [filterWork, setFilterWork] = useState([]);
-  const [activeFilter, setActiveFilter] = useState("All");
+  const [activeFilter, setActiveFilter] = useState("Todos");
   const [animateCard, setAnimateCard] = useState({ y: 0, opacity: 1 });
+
+  useEffect(() => {
+    setFilterWork(works);
+  }, []);
 
   const handleWorkFilter = (item) => {
     setActiveFilter(item);
@@ -72,7 +76,7 @@ const Work = () => {
     setTimeout(() => {
       setAnimateCard([{ y: 0, opacity: 1 }]);
 
-      if (item === "All") {
+      if (item === "Todos") {
         setFilterWork(works);
       } else {
         setFilterWork(works.filter((work) => work.tags.includes(item)));
