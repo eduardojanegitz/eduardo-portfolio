@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-import { AppWrap } from "../../wrapper";
+import { AppWrap, MotionWrap } from "../../wrapper";
 import { images } from "../../constants";
 import "./About.scss";
 
@@ -63,4 +63,8 @@ const About = () => {
   );
 };
 
-export default AppWrap(About, 'sobre mim');
+export default AppWrap(
+  MotionWrap(About, "app__about"),
+  "sobre mim",
+  "app__whitebg"
+);
