@@ -34,13 +34,23 @@ import bolt from "../assets/bolt.png";
 import nb from "../assets/nb.png";
 import skype from "../assets/skype.png";
 import spotify from "../assets/spotify.png";
-import vitafor from "../assets/vitafor.png"
-import facens from "../assets/facens.png"
+import vitafor from "../assets/vitafor.png";
+import facens from "../assets/facens.png";
+import backend from "../assets/backend.png";
+import frontend from "../assets/frontend.png";
+import metodologias from "../assets/metodologias.png";
+import uiux from "../assets/ui-ux.png";
+import eventory from "../assets/eventory.png";
 
 export default {
   email,
   vitafor,
   facens,
+  backend,
+  frontend,
+  metodologias,
+  uiux,
+  eventory,
   mobile,
   api,
   cpp,
