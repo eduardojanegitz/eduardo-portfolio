@@ -12,7 +12,7 @@ const works = [
     description: "Plataforma de controle de bens patrimoniais",
     projectLink: "https://eventory-teste.onrender.com",
     codeLink: "https://github.com/eduardojanegitz/eventory",
-    imgUrl: images.about01,
+    imgUrl: images.eventory,
     tags: ["Todos", "React JS", "Node JS", "UI/UX"],
   },
   {
@@ -87,7 +87,7 @@ const Work = () => {
   return (
     <>
       <h2 className="head-text">
-        Minha seção <span>Criativa</span> de portfolio
+        Meus projetos<span> criativos</span>
       </h2>
 
       <div className="app__work-filter">
