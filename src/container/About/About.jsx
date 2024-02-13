@@ -10,22 +10,22 @@ const abouts = [
     title: "Front-end",
     description:
       "Sou familiarizado com a tecnologia javascript, MaterialUI, SASS",
-    imgUrl: images.about01,
+    imgUrl: images.frontend,
   },
   {
     title: "Back-end",
     description: "Trabalho com NodeJS, PHP",
-    imgUrl: images.about02,
+    imgUrl: images.backend,
+  },
+  {
+    title: "UI/UX",
+    description: "Trabalho com NodeJS, PHP",
+    imgUrl: images.uiux,
   },
   {
     title: "Metodologias Ágeis",
     description: "Trabalho com NodeJS, PHP",
-    imgUrl: images.about03,
-  },
-  {
-    title: "Metodologias Ágeis",
-    description: "Trabalho com NodeJS, PHP",
-    imgUrl: images.about04,
+    imgUrl: images.metodologias,
   },
 ];
 
@@ -34,10 +34,10 @@ const About = () => {
     <>
       <h2 className="head-text">
         Eu sei que
-        <span> Bom desenvolvimento</span>
+        <span> bom desenvolvimento</span>
         <br />
         significa
-        <span> Bons negócios</span>
+        <span> bons negócios</span>
       </h2>
 
       <div className="app__profiles">
