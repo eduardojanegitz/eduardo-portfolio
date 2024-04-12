@@ -9,22 +9,22 @@ const abouts = [
   {
     title: "Front-end",
     description:
-      "Sou familiarizado com a tecnologia javascript, MaterialUI, SASS",
+      "Sou familiarizado com a tecnologia javascript e MaterialUI.",
     imgUrl: images.frontend,
   },
   {
     title: "Back-end",
-    description: "Trabalho com NodeJS, PHP",
+    description: "Trabalho com NodeJS, PHP, Laravel, SQL e NoSQL.",
     imgUrl: images.backend,
   },
   {
     title: "UI/UX",
-    description: "Trabalho com NodeJS, PHP",
+    description: "Adoro estudar e criar designs que representem a identidade visual.",
     imgUrl: images.uiux,
   },
   {
     title: "Metodologias Ágeis",
-    description: "Trabalho com NodeJS, PHP",
+    description: "Sou familiarizado com o Scrum, kanban e muitas vezes utilizo a junção dos dois: o Scrumban.",
     imgUrl: images.metodologias,
   },
 ];
