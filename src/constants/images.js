@@ -41,6 +41,7 @@ import frontend from "../assets/frontend.png";
 import metodologias from "../assets/metodologias.png";
 import uiux from "../assets/ui-ux.png";
 import eventory from "../assets/eventory.png";
+import aerodev from "../assets/aerodev.png";
 
 export default {
   email,
@@ -51,6 +52,7 @@ export default {
   metodologias,
   uiux,
   eventory,
+  aerodev,
   mobile,
   api,
   cpp,
