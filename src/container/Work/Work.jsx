@@ -58,6 +58,14 @@ const works = [
     imgUrl: images.aerodev,
     tags: ["Todos", "React JS", "Web App", "UI/UX", "ThreeJS"],
   },
+  {
+    title: "koothrappali",
+    description: "Rede social voltada para compartilhar fotos astronômicas",
+    projectLink: "https://koothrappali.vercel.app/",
+    codeLink: "https://github.com/eduardojanegitz/koothrappali",
+    imgUrl: images.koothrappali,
+    tags: ["Todos", "React JS", "Web App", "UI/UX"],
+  },
 ];
 
 const Work = () => {

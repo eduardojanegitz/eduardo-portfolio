@@ -42,6 +42,7 @@ import metodologias from "../assets/metodologias.png";
 import uiux from "../assets/ui-ux.png";
 import eventory from "../assets/eventory.png";
 import aerodev from "../assets/aerodev.png";
+import koothrappali from "../assets/koothrappali.png";
 
 export default {
   email,
@@ -85,4 +86,5 @@ export default {
   nb,
   skype,
   spotify,
+  koothrappali
 };
