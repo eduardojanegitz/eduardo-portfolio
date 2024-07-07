@@ -51,6 +51,14 @@ const works = [
   //   tags: ["Todos", "React JS", "Node JS", "Web App", "UI/UX"],
   // },
   {
+    title: "iphone",
+    description: "Clone da landing page do iPhone 15 Pro",
+    projectLink: "https://iphone-eta.vercel.app",
+    codeLink: "https://github.com/eduardojanegitz/iphone",
+    imgUrl: images.iphone,
+    tags: ["Todos", "React JS", "ThreeJS", "Web App", "UI/UX"],
+  },
+  {
     title: "aerodev",
     description: "Portfólio dinâmico criado em ThreeJS",
     projectLink: "https://aerodev.com.br",
@@ -64,7 +72,7 @@ const works = [
     projectLink: "https://koothrappali.vercel.app/",
     codeLink: "https://github.com/eduardojanegitz/koothrappali",
     imgUrl: images.koothrappali,
-    tags: ["Todos", "React JS", "Web App", "UI/UX"],
+    tags: ["Todos", "React JS", "Web App", "UI/UX", "Node JS"],
   },
 ];
 

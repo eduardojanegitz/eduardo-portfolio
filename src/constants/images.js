@@ -43,6 +43,7 @@ import uiux from "../assets/ui-ux.png";
 import eventory from "../assets/eventory.png";
 import aerodev from "../assets/aerodev.png";
 import koothrappali from "../assets/koothrappali.png";
+import iphone from "../assets/iphone.png";
 
 export default {
   email,
@@ -86,5 +87,6 @@ export default {
   nb,
   skype,
   spotify,
-  koothrappali
+  koothrappali,
+  iphone
 };
