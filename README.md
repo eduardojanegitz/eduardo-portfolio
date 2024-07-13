@@ -1,1 +1,2 @@
 # Meu Portfolio 
+## Tecnologias Utilizadas
