@@ -61,7 +61,7 @@ const works = [
   {
     title: "aerodev",
     description: "Portfólio dinâmico criado em ThreeJS",
-    projectLink: "https://aerodev.com.br",
+    projectLink: "https://aerodev.vercel.app",
     codeLink: "https://github.com/eduardojanegitz/aerodev",
     imgUrl: images.aerodev,
     tags: ["Todos", "React JS", "Web App", "UI/UX", "ThreeJS"],
